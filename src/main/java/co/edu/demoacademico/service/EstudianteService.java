@@ -5,7 +5,11 @@ import co.edu.demoacademico.repository.EstudianteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+import java.util.NoSuchElementException;
+/**
+ * Capa: LÓGICA DE NEGOCIO (Service)
+ * Contiene las reglas del dominio (ej. email único) y coordina el acceso a datos.
+ */
 @Service
 public class EstudianteService {
 
@@ -31,6 +35,16 @@ public class EstudianteService {
         // Persistencia vía Repository
         // ============================
         return repository.save(estudiante);
+    }
+
+    public Estudiante buscarPorEmail(String email) {
+        // ============================
+        // ZONA DE ACCESO A LA BD:
+        // Consulta vía Repository
+        // ============================
+        return repository.findByEmail(email)
+                .orElseThrow(() -> new NoSuchElementException(
+                        "No existe un estudiante con el email: " + email));
     }
 
     public List<Estudiante> listar() {
