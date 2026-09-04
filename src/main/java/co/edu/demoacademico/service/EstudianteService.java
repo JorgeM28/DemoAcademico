@@ -1,57 +1,18 @@
 package co.edu.demoacademico.service;
 
 import co.edu.demoacademico.model.Estudiante;
-import co.edu.demoacademico.repository.EstudianteRepository;
-import org.springframework.stereotype.Service;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
-import java.util.List;
-import java.util.NoSuchElementException;
-/**
- * Capa: LÓGICA DE NEGOCIO (Service)
- * Contiene las reglas del dominio (ej. email único) y coordina el acceso a datos.
- */
-@Service
-public class EstudianteService {
+public interface EstudianteService {
 
-    private final EstudianteRepository repository;
+    Estudiante crear(Estudiante e);
 
-    public EstudianteService(EstudianteRepository repository) {
-        this.repository = repository;
-    }
+    Estudiante obtenerPorId(Long id);
 
-    public Estudiante crear(Estudiante estudiante) {
+    Page<Estudiante> listar(Pageable pageable);
 
-        // ----------------------------
-        // ZONA DE LÓGICA DE NEGOCIO:
-        // Regla: email único
-        // ----------------------------
-        repository.findByEmail(estudiante.getEmail())
-                .ifPresent(e -> {
-                    throw new IllegalStateException("Email ya registrado");
-                });
+    Estudiante actualizar(Long id, Estudiante e);
 
-        // ============================
-        // ZONA DE ACCESO A LA BD:
-        // Persistencia vía Repository
-        // ============================
-        return repository.save(estudiante);
-    }
-
-    public Estudiante buscarPorEmail(String email) {
-        // ============================
-        // ZONA DE ACCESO A LA BD:
-        // Consulta vía Repository
-        // ============================
-        return repository.findByEmail(email)
-                .orElseThrow(() -> new NoSuchElementException(
-                        "No existe un estudiante con el email: " + email));
-    }
-
-    public List<Estudiante> listar() {
-        // ============================
-        // ZONA DE ACCESO A LA BD:
-        // Consulta vía Repository
-        // ============================
-        return repository.findAll();
-    }
+    void eliminar(Long id);
 }
