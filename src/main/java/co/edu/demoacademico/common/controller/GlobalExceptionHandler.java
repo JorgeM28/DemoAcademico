@@ -1,4 +1,4 @@
-package co.edu.demoacademico.controller;
+package co.edu.demoacademico.common.controller;
 
 import co.edu.demoacademico.common.api.ApiResponse;
 import co.edu.demoacademico.common.api.ResponseBuilder;

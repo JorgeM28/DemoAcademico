@@ -1,4 +1,4 @@
-package co.edu.demoacademico.dto;
+package co.edu.demoacademico.programas.dto;
 
 public class ProgramaDTO {
     private Long id;

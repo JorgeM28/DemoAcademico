@@ -1,7 +1,7 @@
-package co.edu.demoacademico.handler;
+package co.edu.demoacademico.asignaturas.handler;
 
-import co.edu.demoacademico.dto.AsignaturaCreateDTO;
-import co.edu.demoacademico.dto.AsignaturaDTO;
+import co.edu.demoacademico.asignaturas.dto.AsignaturaCreateDTO;
+import co.edu.demoacademico.asignaturas.dto.AsignaturaDTO;
 import co.edu.demoacademico.asignaturas.model.Asignatura;
 import co.edu.demoacademico.programas.model.Programa;
 import co.edu.demoacademico.asignaturas.service.AsignaturaService;

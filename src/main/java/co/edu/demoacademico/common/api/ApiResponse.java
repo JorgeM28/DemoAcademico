@@ -1,4 +1,4 @@
-package co.edu.demoacademico.api;
+package co.edu.demoacademico.common.api;
 
 import java.time.Instant;
 

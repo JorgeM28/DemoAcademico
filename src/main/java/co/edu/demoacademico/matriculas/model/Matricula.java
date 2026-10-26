@@ -1,4 +1,4 @@
-package co.edu.demoacademico.model;
+package co.edu.demoacademico.matriculas.model;
 
 import co.edu.demoacademico.estudiantes.model.Estudiante;
 import co.edu.demoacademico.grupos.model.Grupo;

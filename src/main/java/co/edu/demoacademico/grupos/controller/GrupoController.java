@@ -1,9 +1,9 @@
-package co.edu.demoacademico.controller;
+package co.edu.demoacademico.grupos.controller;
 
 import co.edu.demoacademico.common.api.ApiResponse;
 import co.edu.demoacademico.common.api.ResponseBuilder;
-import co.edu.demoacademico.dto.GrupoCreateDTO;
-import co.edu.demoacademico.dto.GrupoDTO;
+import co.edu.demoacademico.grupos.dto.GrupoCreateDTO;
+import co.edu.demoacademico.grupos.dto.GrupoDTO;
 import co.edu.demoacademico.grupos.handler.GrupoHandler;
 import jakarta.validation.Valid;
 import org.springdoc.core.annotations.ParameterObject;

@@ -1,8 +1,8 @@
-package co.edu.demoacademico.handler;
+package co.edu.demoacademico.programas.handler;
 
-import co.edu.demoacademico.dto.ProgramaCreateDTO;
-import co.edu.demoacademico.dto.ProgramaDTO;
-import co.edu.demoacademico.dto.ProgramaUpdateDTO;
+import co.edu.demoacademico.programas.dto.ProgramaCreateDTO;
+import co.edu.demoacademico.programas.dto.ProgramaDTO;
+import co.edu.demoacademico.programas.dto.ProgramaUpdateDTO;
 import co.edu.demoacademico.programas.model.Programa;
 import co.edu.demoacademico.programas.service.ProgramaService;
 import org.springframework.data.domain.Page;

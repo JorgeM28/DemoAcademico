@@ -1,8 +1,8 @@
-package co.edu.demoacademico.handler;
+package co.edu.demoacademico.estudiantes.handler;
 
-import co.edu.demoacademico.dto.EstudianteCreateDTO;
-import co.edu.demoacademico.dto.EstudianteDTO;
-import co.edu.demoacademico.dto.EstudianteUpdateDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteCreateDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteUpdateDTO;
 import co.edu.demoacademico.estudiantes.model.Estudiante;
 import co.edu.demoacademico.estudiantes.service.EstudianteService;
 import org.springframework.data.domain.Page;

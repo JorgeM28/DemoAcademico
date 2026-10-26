@@ -1,10 +1,10 @@
-package co.edu.demoacademico.controller;
+package co.edu.demoacademico.estudiantes.controller;
 
 import co.edu.demoacademico.common.api.ApiResponse;
 import co.edu.demoacademico.common.api.ResponseBuilder;
-import co.edu.demoacademico.dto.EstudianteCreateDTO;
-import co.edu.demoacademico.dto.EstudianteDTO;
-import co.edu.demoacademico.dto.EstudianteUpdateDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteCreateDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteDTO;
+import co.edu.demoacademico.estudiantes.dto.EstudianteUpdateDTO;
 import co.edu.demoacademico.estudiantes.handler.EstudianteHandler;
 import jakarta.validation.Valid;
 import org.springdoc.core.annotations.ParameterObject;

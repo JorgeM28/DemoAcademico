@@ -1,4 +1,4 @@
-package co.edu.demoacademico.repository;
+package co.edu.demoacademico.programas.repository;
 
 import co.edu.demoacademico.programas.model.Programa;
 import org.springframework.data.jpa.repository.JpaRepository;

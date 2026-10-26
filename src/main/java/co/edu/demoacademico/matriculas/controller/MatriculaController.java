@@ -1,9 +1,9 @@
-package co.edu.demoacademico.controller;
+package co.edu.demoacademico.matriculas.controller;
 
 import co.edu.demoacademico.common.api.ApiResponse;
 import co.edu.demoacademico.common.api.ResponseBuilder;
-import co.edu.demoacademico.dto.MatriculaCreateDTO;
-import co.edu.demoacademico.dto.MatriculaDTO;
+import co.edu.demoacademico.matriculas.dto.MatriculaCreateDTO;
+import co.edu.demoacademico.matriculas.dto.MatriculaDTO;
 import co.edu.demoacademico.matriculas.handler.MatriculaHandler;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

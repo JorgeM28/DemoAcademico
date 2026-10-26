@@ -1,4 +1,4 @@
-package co.edu.demoacademico.service;
+package co.edu.demoacademico.matriculas.service;
 
 import co.edu.demoacademico.matriculas.model.Matricula;
 

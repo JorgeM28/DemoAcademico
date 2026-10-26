@@ -1,4 +1,4 @@
-package co.edu.demoacademico.dto;
+package co.edu.demoacademico.programas.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

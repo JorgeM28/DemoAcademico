@@ -1,4 +1,4 @@
-package co.edu.demoacademico.service;
+package co.edu.demoacademico.programas.service;
 
 import co.edu.demoacademico.programas.model.Programa;
 import org.springframework.data.domain.Page;

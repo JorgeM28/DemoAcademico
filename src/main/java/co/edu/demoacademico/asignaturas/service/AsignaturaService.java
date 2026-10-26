@@ -1,4 +1,4 @@
-package co.edu.demoacademico.service;
+package co.edu.demoacademico.asignaturas.service;
 
 import co.edu.demoacademico.asignaturas.model.Asignatura;
 import java.util.List;

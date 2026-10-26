@@ -1,4 +1,4 @@
-package co.edu.demoacademico.model;
+package co.edu.demoacademico.grupos.model;
 
 import co.edu.demoacademico.asignaturas.model.Asignatura;
 import jakarta.persistence.*;

@@ -1,4 +1,4 @@
-package co.edu.demoacademico.dto;
+package co.edu.demoacademico.grupos.dto;
 
 public class GrupoDTO {
     private Long id;

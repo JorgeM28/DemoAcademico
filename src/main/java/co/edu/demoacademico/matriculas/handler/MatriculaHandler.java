@@ -1,7 +1,7 @@
-package co.edu.demoacademico.handler;
+package co.edu.demoacademico.matriculas.handler;
 
-import co.edu.demoacademico.dto.MatriculaCreateDTO;
-import co.edu.demoacademico.dto.MatriculaDTO;
+import co.edu.demoacademico.matriculas.dto.MatriculaCreateDTO;
+import co.edu.demoacademico.matriculas.dto.MatriculaDTO;
 import co.edu.demoacademico.matriculas.model.Matricula;
 import co.edu.demoacademico.matriculas.service.MatriculaService;
 import org.springframework.stereotype.Component;

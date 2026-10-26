@@ -1,7 +1,7 @@
-package co.edu.demoacademico.handler;
+package co.edu.demoacademico.grupos.handler;
 
-import co.edu.demoacademico.dto.GrupoCreateDTO;
-import co.edu.demoacademico.dto.GrupoDTO;
+import co.edu.demoacademico.grupos.dto.GrupoCreateDTO;
+import co.edu.demoacademico.grupos.dto.GrupoDTO;
 import co.edu.demoacademico.asignaturas.model.Asignatura;
 import co.edu.demoacademico.grupos.model.Grupo;
 import co.edu.demoacademico.asignaturas.service.AsignaturaService;
